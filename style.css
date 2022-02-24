@@ -18,10 +18,16 @@ body {
 }
 
 #bottomContainer {
-    display: row;
+    display: flex;
+    flex-direction: row;
 }
 
-#curatedTwitter {}
+#curatedTwitter {
+    margin: 20px;
+    width: 40%;
+}
+
+#summaryEvents {}
 
 @media only screen and (max-width: 600px) {
     body {
