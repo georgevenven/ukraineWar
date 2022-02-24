@@ -1,8 +1,36 @@
 #map {
-    height: 180px;
-    width: 500px;
+    height: 600px;
 }
 
 h1 {
     font-size: 34px;
+    text-align: center;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottomContainer {
+    display: row;
+}
+
+#curatedTwitter {}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 95% !important;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    #map {
+        height: 300px;
+    }
 }
