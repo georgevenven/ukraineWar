@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
 #map {
     height: 600px;
 }
@@ -10,6 +11,7 @@ h1 {
 body {
     width: 60%;
     margin: auto;
+    font-family: 'Inconsolata', monospace;
 }
 
 #mainContainer {
@@ -27,7 +29,26 @@ body {
     width: 40%;
 }
 
-#summaryEvents {}
+#summaryEvents {
+    margin: 20px;
+    width: 60%;
+}
+
+table,
+th,
+td {
+    border: 2px dashed black;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.25;
+    margin-top: 15px;
+}
 
 @media only screen and (max-width: 600px) {
     body {
